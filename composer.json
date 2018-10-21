@@ -1,6 +1,6 @@
 {
     "name": "NijmegenSync/DataSource",
-    "description": "Aggregates, validates, transforms and publicizes the open data of the municipality Nijmegen on its data portal.",
+    "description": "Contains the base functionality and contracts which DataSources must use so that NijmegenSync can harvest the DataSource.",
     "keywords": [],
     "homepage": "https://github.com/WterBerg/NijmegenSync-DataSource",
     "readme": "README.md",
