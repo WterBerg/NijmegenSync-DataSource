@@ -1,6 +1,6 @@
 <?php
 
-namespace NijmegenSync\Synchronization\DataSource\Harvesting;
+namespace NijmegenSync\DataSource\Harvesting;
 
 
 /**
@@ -8,7 +8,7 @@ namespace NijmegenSync\Synchronization\DataSource\Harvesting;
  *
  * Represents how often a given DataSource should be harvested.
  *
- * @package NijmegenSync\Synchronization\DataSource\Harvesting
+ * @package NijmegenSync\DataSource\Harvesting
  */
 class HarvestingFrequency {
 

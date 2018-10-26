@@ -1,6 +1,6 @@
 <?php
 
-namespace NijmegenSync\Synchronization\DataSource\Harvesting;
+namespace NijmegenSync\DataSource\Harvesting;
 
 
 /**
@@ -8,7 +8,7 @@ namespace NijmegenSync\Synchronization\DataSource\Harvesting;
  *
  * Represents a single entity harvested from the DataSource.
  *
- * @package NijmegenSync\Synchronization\DataSource\Harvesting
+ * @package NijmegenSync\DataSource\Harvesting
  */
 class HarvestResult {
 

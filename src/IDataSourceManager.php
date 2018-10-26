@@ -1,8 +1,8 @@
 <?php
 
-namespace NijmegenSync\Synchronization\DataSource;
+namespace NijmegenSync\DataSource;
 
-use NijmegenSync\Synchronization\DataSource\Harvesting\IDataSourceHarvester;
+use NijmegenSync\DataSource\Harvesting\IDataSourceHarvester;
 
 
 /**
@@ -11,7 +11,7 @@ use NijmegenSync\Synchronization\DataSource\Harvesting\IDataSourceHarvester;
  * Entryway of a DataSource, it exposes all the functionality and references required so that the
  * NijmegenSync application can harvest the resource which this DataSource represents.
  *
- * @package NijmegenSync\Synchronization\DataSource
+ * @package NijmegenSync\DataSource
  */
 interface IDataSourceManager {
 

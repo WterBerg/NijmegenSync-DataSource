@@ -1,6 +1,6 @@
 <?php
 
-namespace NijmegenSync\Synchronization\DataSource\Harvesting;
+namespace NijmegenSync\DataSource\Harvesting;
 
 use NijmegenSync\Contracts\IConfigurableAuthentication;
 
@@ -10,7 +10,7 @@ use NijmegenSync\Contracts\IConfigurableAuthentication;
  *
  * Defines the contract which all DataSourceHarvesters must conform to.
  *
- * @package NijmegenSync\Synchronization\DataSource\Harvesting
+ * @package NijmegenSync\DataSource\Harvesting
  */
 interface IDataSourceHarvester extends IConfigurableAuthentication {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace NijmegenSync\Synchronization\DataSource\Harvesting;
+namespace NijmegenSync\DataSource\Harvesting;
 
 use Exception;
 
@@ -10,6 +10,6 @@ use Exception;
  *
  * Indicates that an error occurred while harvesting a DataSource.
  *
- * @package NijmegenSync\Synchronization\DataSource\Harvesting
+ * @package NijmegenSync\DataSource\Harvesting
  */
 class HarvestingException extends Exception {}
