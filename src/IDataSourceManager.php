@@ -2,6 +2,7 @@
 
 namespace NijmegenSync\DataSource;
 
+use NijmegenSync\Contracts\INijmegenSyncModule;
 use NijmegenSync\DataSource\Harvesting\IDataSourceHarvester;
 
 
@@ -13,7 +14,7 @@ use NijmegenSync\DataSource\Harvesting\IDataSourceHarvester;
  *
  * @package NijmegenSync\DataSource
  */
-interface IDataSourceManager {
+interface IDataSourceManager extends INijmegenSyncModule {
 
     /**
      * Getter method for the name of the DataSource.
