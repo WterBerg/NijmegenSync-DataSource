@@ -1,6 +1,6 @@
 <?php
 
-use NijmegenSync\Synchronization\DataSource\Harvesting\HarvestResult;
+use NijmegenSync\DataSource\Harvesting\HarvestResult;
 
 use PHPUnit\Framework\TestCase;
 
