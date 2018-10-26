@@ -2,6 +2,8 @@
 
 namespace NijmegenSync\Synchronization\DataSource\Harvesting;
 
+use NijmegenSync\Contracts\IConfigurableAuthentication;
+
 
 /**
  * Interface IDataSourceHarvester
@@ -10,7 +12,7 @@ namespace NijmegenSync\Synchronization\DataSource\Harvesting;
  *
  * @package NijmegenSync\Synchronization\DataSource\Harvesting
  */
-interface IDataSourceHarvester {
+interface IDataSourceHarvester extends IConfigurableAuthentication {
 
     /**
      * Harvests the DataSource and returns the harvest as a HarvestResults.
