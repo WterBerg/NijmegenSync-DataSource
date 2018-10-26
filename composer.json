@@ -18,7 +18,8 @@
     "repositories": [
         {
             "type": "github",
-            "url": "https://github.com/WterBerg/NijmegenSync-Contracts"
+            "url": "https://github.com/WterBerg/NijmegenSync-Contracts",
+            "no-api": true
         }
     ],
     "autoload": {
