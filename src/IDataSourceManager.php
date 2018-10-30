@@ -39,6 +39,13 @@ interface IDataSourceManager extends INijmegenSyncModule {
     public function getHarvester(): IDataSourceHarvester;
 
     /**
+     * Getter method for the absolute path for the defaults file.
+     *
+     * @return string The absolute path to the defaults file
+     */
+    public function getDefaultsFilePath(): string;
+
+    /**
      * Getter method for the absolute path to the ValueMapping file.
      *
      * @return string The absolute path to the ValueMapping file
