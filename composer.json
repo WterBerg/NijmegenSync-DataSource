@@ -2,7 +2,7 @@
     "name": "NijmegenSync/DataSource",
     "description": "Contains the base functionality and contracts which DataSources must use so that NijmegenSync can harvest the DataSource.",
     "keywords": [],
-    "homepage": "https://github.com/WterBerg/NijmegenSync-DataSource",
+    "homepage": "https://github.com/NijmegenSync/DataSource",
     "readme": "README.md",
     "abandoned": false,
     "type": "library",
@@ -18,14 +18,14 @@
     "repositories": [
         {
             "type": "github",
-            "url": "https://github.com/WterBerg/NijmegenSync-Contracts",
+            "url": "https://github.com/NijmegenSync/Contracts",
             "no-api": true
         }
     ],
     "autoload": {
         "psr-4": {
-            "NijmegenSync\\Synchronization\\DataSource\\Harvesting\\": "src/Harvesting",
-            "NijmegenSync\\Synchronization\\DataSource\\": "src/"
+            "NijmegenSync\\DataSource\\Harvesting\\": "src/Harvesting",
+            "NijmegenSync\\DataSource\\": "src/"
         }
     },
     "config": {
