@@ -25,13 +25,6 @@ class HarvestingFrequency
     const MONTHLY = 'monthly';
 
     /**
-     * HarvestingFrequency constructor.
-     */
-    private function __construct()
-    {
-    }
-
-    /**
      * Checks if a given frequency matches any of the defined HarvestingFrequencies.
      *
      * @param string $frequency The frequency to check
