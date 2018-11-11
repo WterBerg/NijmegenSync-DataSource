@@ -5,17 +5,14 @@ namespace NijmegenSync\DataSource;
 use NijmegenSync\Contracts\INijmegenSyncModule;
 use NijmegenSync\DataSource\Harvesting\IDataSourceHarvester;
 
-
 /**
- * Interface IDataSourceManager
+ * Interface IDataSourceManager.
  *
  * Entryway of a DataSource, it exposes all the functionality and references required so that the
  * NijmegenSync application can harvest the resource which this DataSource represents.
- *
- * @package NijmegenSync\DataSource
  */
-interface IDataSourceManager extends INijmegenSyncModule {
-
+interface IDataSourceManager extends INijmegenSyncModule
+{
     /**
      * Getter method for the name of the DataSource.
      *
@@ -65,5 +62,4 @@ interface IDataSourceManager extends INijmegenSyncModule {
      * @return string The absolute path to the WhitelistMapping file
      */
     public function getWhitelistMappingFilePath(): string;
-
 }

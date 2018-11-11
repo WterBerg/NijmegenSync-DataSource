@@ -1,12 +1,10 @@
 <?php
 
 use NijmegenSync\DataSource\Harvesting\HarvestResult;
-
 use PHPUnit\Framework\TestCase;
 
-
-class HarvestResultTest extends TestCase {
-
+class HarvestResultTest extends TestCase
+{
     public function testDefaultStateAreEmptyArrays(): void
     {
         $harvestResult = new HarvestResult();
@@ -34,5 +32,4 @@ class HarvestResultTest extends TestCase {
 
         $this->assertEquals(['title' => 'MyHarvestResult'], $harvestResult->getResult());
     }
-
 }

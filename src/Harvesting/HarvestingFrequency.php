@@ -2,16 +2,13 @@
 
 namespace NijmegenSync\DataSource\Harvesting;
 
-
 /**
- * Class HarvestingFrequency
+ * Class HarvestingFrequency.
  *
  * Represents how often a given DataSource should be harvested.
- *
- * @package NijmegenSync\DataSource\Harvesting
  */
-class HarvestingFrequency {
-
+class HarvestingFrequency
+{
     /**
      * @var string Indicates that a given DataSource should be harvested on a daily basis
      */
@@ -28,19 +25,21 @@ class HarvestingFrequency {
     const MONTHLY = 'monthly';
 
     /**
+     * HarvestingFrequency constructor.
+     */
+    private function __construct()
+    {
+    }
+
+    /**
      * Checks if a given frequency matches any of the defined HarvestingFrequencies.
      *
      * @param string $frequency The frequency to check
+     *
      * @return bool True or false depending on if the frequency is defined
      */
     public static function isValid(string $frequency): bool
     {
         return in_array($frequency, [self::DAILY, self::WEEKLY, self::MONTHLY]);
     }
-
-    /**
-     * HarvestingFrequency constructor.
-     */
-    private function __construct() {}
-
 }

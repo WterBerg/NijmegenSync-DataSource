@@ -36,7 +36,9 @@
         "preferred-install": "dist"
     },
     "scripts": {
-        "test": "phpunit --bootstrap vendor/autoload.php --testdox test/"
+        "test": "phpunit --bootstrap vendor/autoload.php",
+        "quality": "php-cs-fixer fix --dry-run",
+        "fix-quality": "php-cs-fixer fix"
     },
     "require": {
         "php": "^7.2",

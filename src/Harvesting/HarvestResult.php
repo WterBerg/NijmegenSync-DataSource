@@ -2,16 +2,13 @@
 
 namespace NijmegenSync\DataSource\Harvesting;
 
-
 /**
- * Class HarvestResult
+ * Class HarvestResult.
  *
  * Represents a single entity harvested from the DataSource.
- *
- * @package NijmegenSync\DataSource\Harvesting
  */
-class HarvestResult {
-
+class HarvestResult
+{
     /** @var string[] */
     protected $notices;
 
@@ -24,7 +21,7 @@ class HarvestResult {
     public function __construct()
     {
         $this->notices = [];
-        $this->result = [];
+        $this->result  = [];
     }
 
     /**
@@ -76,5 +73,4 @@ class HarvestResult {
     {
         $this->result = $result;
     }
-
 }

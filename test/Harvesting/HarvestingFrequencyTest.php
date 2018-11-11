@@ -1,12 +1,10 @@
 <?php
 
 use NijmegenSync\DataSource\Harvesting\HarvestingFrequency;
-
 use PHPUnit\Framework\TestCase;
 
-
-class HarvestingFrequencyTest extends TestCase {
-
+class HarvestingFrequencyTest extends TestCase
+{
     public function testValidHarvestingFrequenciesValidate(): void
     {
         $this->assertTrue(HarvestingFrequency::isValid(HarvestingFrequency::MONTHLY));
@@ -21,5 +19,4 @@ class HarvestingFrequencyTest extends TestCase {
         $this->assertFalse(HarvestingFrequency::isValid('and'));
         $this->assertFalse(HarvestingFrequency::isValid('forever'));
     }
-
 }
