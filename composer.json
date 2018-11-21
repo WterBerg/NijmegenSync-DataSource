@@ -18,7 +18,7 @@
     "repositories": [
         {
             "type": "github",
-            "url": "https://github.com/NijmegenSync/Contracts",
+            "url": "https://github.com/NijmegenSync/Shared",
             "no-api": true
         }
     ],
@@ -26,6 +26,12 @@
         "psr-4": {
             "NijmegenSync\\DataSource\\Harvesting\\": "src/Harvesting",
             "NijmegenSync\\DataSource\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NijmegenSync\\Test\\DataSource\\Harvesting\\": "test/Harvesting/",
+            "NijmegenSync\\Test\\DataSource\\": "test/"
         }
     },
     "config": {
@@ -42,7 +48,7 @@
     },
     "require": {
         "php": "^7.2",
-        "NijmegenSync/Contracts": "dev-master"
+        "NijmegenSync/Shared": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"

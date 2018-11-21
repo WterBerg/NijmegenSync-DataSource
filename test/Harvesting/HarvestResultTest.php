@@ -1,5 +1,7 @@
 <?php
 
+namespace NijmegenSync\Test\DataSource\Harvesting;
+
 use NijmegenSync\DataSource\Harvesting\HarvestResult;
 use PHPUnit\Framework\TestCase;
 
