@@ -22,6 +22,13 @@ interface IDataSourceManager extends INijmegenSyncModule
     public function getName(): string;
 
     /**
+     * Getter method for the web address of this DataSource.
+     *
+     * @return string The web address of this DataSource
+     */
+    public function getWebAddress(): string;
+
+    /**
      * Getter method for the harvesting frequency of this DataSource.
      *
      * @return string The harvesting frequency of this DataSource
